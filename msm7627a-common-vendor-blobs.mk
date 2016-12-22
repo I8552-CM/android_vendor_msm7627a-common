@@ -243,4 +243,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7627a-common/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
     vendor/samsung/msm7627a-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/msm7627a-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/samsung/msm7627a-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so
+    vendor/samsung/msm7627a-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+    vendor/samsung/msm7627a-common/proprietary/lib/hw/power.msm7x27a.so:system/lib/hw/power.msm7x27a.so \
