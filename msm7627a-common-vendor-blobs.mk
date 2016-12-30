@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7627a-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/msm7627a-common/proprietary/bin/qemu-props:system/bin/qemu-props \
     vendor/samsung/msm7627a-common/proprietary/bin/sensord:system/bin/sensord \
+    vendor/samsung/msm7627a-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/samsung/msm7627a-common/proprietary/bin/qemud:system/bin/qemud \
     vendor/samsung/msm7627a-common/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/samsung/msm7627a-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
@@ -171,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7627a-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/msm7627a-common/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
     vendor/samsung/msm7627a-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    vendor/samsung/msm7627a-common/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/samsung/msm7627a-common/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/samsung/msm7627a-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/samsung/msm7627a-common/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
@@ -222,6 +224,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7627a-common/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
     vendor/samsung/msm7627a-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/samsung/msm7627a-common/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
+    vendor/samsung/msm7627a-common/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/samsung/msm7627a-common/proprietary/usr/keychars/7x27a_kp.kcm:system/usr/keychars/7x27a_kp.kcm \
     vendor/samsung/msm7627a-common/proprietary/usr/keylayout/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl \
     vendor/samsung/msm7627a-common/proprietary/usr/keylayout/7x27a_kp.kl:system/usr/keylayout/7x27a_kp.kl \
