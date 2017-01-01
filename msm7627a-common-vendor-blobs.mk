@@ -34,6 +34,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm7627a-common/proprietary/etc/thermald.conf:system/etc/thermald.conf \
     vendor/samsung/msm7627a-common/proprietary/etc/01disabled_google_system_update:system/etc/01disabled_google_system_update \
     vendor/samsung/msm7627a-common/proprietary/etc/PSConfig_7820.psr:system/etc/PSConfig_7820.psr \
+    vendor/samsung/msm7627a-common/proprietary/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
+    vendor/samsung/msm7627a-common/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/samsung/msm7627a-common/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml \
+    vendor/samsung/msm7627a-common/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/samsung/msm7627a-common/proprietary/media/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
     vendor/samsung/msm7627a-common/proprietary/media/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
     vendor/samsung/msm7627a-common/proprietary/media/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
