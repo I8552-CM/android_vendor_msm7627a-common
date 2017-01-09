@@ -224,6 +224,10 @@ PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/etc/thermald
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/etc/gps.conf:system/etc/gps.conf 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so 
 
+# Ota
+
+PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/app/app-debug.apk:system/app/OtaUpdater/app-debug.apk 
+
 #Others
 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/etc/qosmgr_rules.xml:system/etc/qosmgr_rules.xml 
