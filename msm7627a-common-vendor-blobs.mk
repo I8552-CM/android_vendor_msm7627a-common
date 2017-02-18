@@ -211,7 +211,7 @@ PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/bin/bccmd:sy
 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libadc.so:system/lib/libadc.so
-#PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/etc/thermald.conf:system/etc/thermald.conf 
+PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/etc/thermald.conf:system/etc/thermald.conf 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/bin/thermald:system/bin/thermald 
 #PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/hw/power.msm7x27a.so:system/lib/hw/power.msm7x27a.so 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/etc/init.qcom.thermald_conf.sh:system/etc/init.qcom.thermald_conf.sh 
