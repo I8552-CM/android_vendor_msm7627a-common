@@ -196,15 +196,9 @@ PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libdsi_n
 
 # Bluetooth
 
-PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so 
-PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libbluetooth.so:system/lib/libbluetooth.so 
-PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libbt-codec.so:system/lib/libbt-codec.so 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/etc/init.bt.sh:system/etc/init.bt.sh 
+PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/etc/dbus.conf:system/etc/dbus.conf 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/etc/PSConfig_7820.psr:system/etc/PSConfig_7820.psr 
-PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libbt-aptx.so:system/lib/libbt-aptx.so 
-PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libbtio.so:system/lib/libbtio.so 
-PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so 
-PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/bin/btnvtool:system/bin/btnvtool 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/bin/bccmd:system/bin/bccmd 
 
 #Power
@@ -255,7 +249,6 @@ PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/bin/playlpm:
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/bin/p2p_supplicant:system/bin/p2p_supplicant 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libdsm.so:system/lib/libdsm.so 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so 
-PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libdbus.so:system/lib/libdbus.so 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libwidevine.so:system/lib/libwidevine.so 
 PRODUCT_COPY_FILES +=    vendor/samsung/msm7627a-common/proprietary/lib/libhwrpc.so:system/lib/libhwrpc.so 
